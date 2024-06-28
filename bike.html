@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ /* bike select 1 */
+        #bike{
+            width: 100%;
+            height: 1000px;
+            background-image: url("bike.png");
+            background-size: cover;
+        }
+        #brand{
+            width: 270px;
+            height: 150px;
+            margin-left: 40px;
+            margin-top: 220px;
+            cursor: pointer;
+        }
+        #bikename{
+            font-family: "Poppins", sans-serif;
+            font-size: 80px;
+            margin-left: 60px;
+            line-height: 0;
+        }
+        #model{
+            font-family: "Poppins", sans-serif;
+            font-size: 50px;
+            margin-left: 60px;
+        }
+        #bikeinf{
+            font-family: "Poppins", sans-serif;
+            margin-left: 60px;
+            font-size: 15px;
+        }
+        #clr{
+            font-family: "Poppins", sans-serif;
+            margin-left: 60px;
+        }
+        .colorselect {
+            margin-left: 60px;
+            display: flex;
+        }
+        #red{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 0, 0, 0.681);
+            cursor: pointer;
+            border: 2px solid rgb(244, 239, 239);
+        }
+        #red:hover{
+            border: 2px solid rgba(255, 0, 0, 0.681);
+        }
+        #blue{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(25, 0, 255, 0.66);
+            cursor: pointer;
+            margin-left: 15px;
+            border: 2px solid rgb(244, 239, 239);
+        }
+        #blue:hover{
+            border: 2px solid rgba(25, 0, 255, 0.66);
+        }
+        #black{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgb(0, 0, 0);
+            margin-left: 15px;
+            cursor: pointer;
+            border: 2px solid rgb(244, 239, 239);
+        }
+        #black:hover{
+            border: 2px solid black;
+        }
+        #bnow{
+            font-family: "Poppins", sans-serif;
+            margin-left: 60px;
+            width: 180px;
+            height: 40px;
+            margin-top: 40px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        #bnow:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        /* bike select 1 */
+</style>
+<body>
+<div id="bike">
+        <nav>
+        <img id="brand" src="https://github.com/srivatsa2005/mainproject/blob/main/Black%20logo%20for%20B&W%20print.png?raw=true">
+    </nav>
+    <h2 id="bikename">Rhyno</h2>
+    <h1 id="model">SE03</h1>
+    <p id="bikeinf">Indulge in the perfect harmony of power and range with this Rhyno. Offering an exhilarating experience<br> with its robust 2000W motor, it ensures a thrilling ride while still delivering an impressive 80-100km range<br> on a single charge. Like its counterparts, this machine features the safety assurance of a fire-safe<br> advanced LFP battery, along with the comprehensive benefits of owning a Rhyno. Boasting a<br> formidable combination of a 2000W motor and a 2.7kWh battery, this beast is ready to roar on<br> the roads, providing an electrifying journey at every turn. Check out the other details below!</p>
+    <h3 id="clr">Choose your colour</h3>
+    <div class="colorselect">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="black"></div>
+    </div>
+    <button id="bnow">Buy Now !</button>
+    </div>
+</div>
+</body>
+</html>
